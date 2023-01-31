@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact us page</title>
 </head>
 <body>
     
+    <div class="container">
+        <h1>Contact us</h1>
+        <form id="contactForm">
+            <div>
+                <label>
+                    First name (required)
+                    <input name="firstName" id="firstName" />
+                </label>
+                <div class="form-error" id="firstNameError">Please enter a name</div>
+            </div>
+
+            <div>
+                <label>
+                    Subject (required)
+                    <textarea name="message" id="message" rows="10" cols="80"></textarea>
+                    <div class="form-error" id="messageError">Subject must have a minimum length of 10 characters</div>
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Address (required)
+                    <input name="address" id="address" />
+                </label>
+                <div class="form-error" id="addressError">Please enter an address (minimum 5 characters)</div>
+            </div>
+
+            <div>
+                <label>
+                    Email (required)
+                    <input name="email" id="email" />
+                </label>
+                <div class="form-error" id="emailError">Please enter a valid email address</div>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+
 </body>
 </html>
