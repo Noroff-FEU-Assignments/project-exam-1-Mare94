@@ -1,0 +1,64 @@
+/* CSS for the carousel */
+
+.carousel {
+    position: relative;
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel__track-container {
+    background: whitesmoke;
+    height: 100%;
+    position: relative;
+}
+
+.carousel__track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carousel__slide {
+    /*position: absolute;*/
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: black;
+    border: 0;
+    cursor: pointer;
+}
+
+.carousel__btn--left {
+    left: -30px;
+}
+
+.carousel__btn--right {
+    right: -30px;
+}
+
+.carousel__nav {
+    background: red;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.carousel__indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: black;
+    margin: 0 10px;
+}
+
+.carousel__indicator.current-slide {
+    background: rgba(0, 0, 0, .80)
+}
