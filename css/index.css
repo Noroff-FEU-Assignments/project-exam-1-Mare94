@@ -174,3 +174,51 @@ nav a:hover {
 
 .is-hidden {display: none;}
 /* <---------------------------------------------->*/
+
+
+@media screen and (min-width: 900px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    }
+
+    .logo {
+        grid-column: 2 / 1;
+    }
+
+    nav {
+        all: unset;
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+    }
+
+    nav a::before{
+        content: '';
+        display: block;
+        height: 2px;
+        background: white;
+        transform: scale(0, 1);
+        transition: transform ease-in-out 200ms;
+    }
+
+    nav a:hover::before {
+        transform: scale(1, 1);
+    }
+
+}
