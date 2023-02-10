@@ -33,7 +33,7 @@ header{
     display: block;
     background: white;
     height: 2px;
-    width: 2px;
+    width: 30px;
     border-radius: 2px;
     position: relative;
 }
@@ -59,7 +59,9 @@ nav{
     left: 0;
     background: #101010;
     width: 100%;
-    display: none;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 250ms ease-in-out;
 }
 
 nav ul {
@@ -79,16 +81,21 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out 200;
 }
 
 nav a:hover {
-    color: whitesmoke;
+    color: green;
 }
 
 .nav-toggle:checked ~ nav {
-    display: block;
+    transform: scale(1,1);
 }
 
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+}
 
 
 
