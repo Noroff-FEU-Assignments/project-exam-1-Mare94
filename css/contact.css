@@ -11,7 +11,12 @@ body {
     font-weight: 400;
 }
 
+.container h2 {
+    margin-top: 100px;
+}
+
 /*CSS for form*/
+
 .container{
     max-width: 750px;
     margin: 0 auto;
