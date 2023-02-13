@@ -110,7 +110,7 @@ footer {
     left: 0;
     background: #101010;
     height: auto;
-    width: 100vw;
+    width: 100%;
     padding-top: 5px;
     color: white;
 } 
@@ -125,12 +125,12 @@ footer {
 .footer-content h3{
     font-size: 1.8rem;
     text-transform: capitalize;
-    line-height: 3rem;
+    line-height: 1rem;
 }
 .footer-content p{
     max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
+    margin: auto;
+    line-height: 32px;
     font-size: 14px;
 }
 
@@ -148,7 +148,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem 0 3rem 0;
+    margin: 2rem 0 2rem 0;
 }
 .socials li {
     margin: 0 10px;
