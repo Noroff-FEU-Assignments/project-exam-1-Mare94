@@ -1,8 +1,16 @@
 .blog-post{
-    margin: 1rem;
+    margin: 5rem;
+    margin-left: 6rem;
     padding: 1rem;
+    max-width: 80%;
     background:whitesmoke;
     border: gray;
     border-radius: 2px;
     text-decoration: none;
+    color: black;
+}
+.blog-post a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
