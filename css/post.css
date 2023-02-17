@@ -1,0 +1,8 @@
+.blog-post{
+    margin: 1rem;
+    padding: 1rem;
+    background:whitesmoke;
+    border: gray;
+    border-radius: 2px;
+    text-decoration: none;
+}
