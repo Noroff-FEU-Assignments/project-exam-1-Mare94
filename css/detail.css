@@ -31,6 +31,7 @@ main{
     background: whitesmoke;
     margin: 4rem;
     padding: 2rem;
+    max-width: 1450px;
 }
 
 .details h1 {
@@ -39,4 +40,10 @@ main{
 .details h2 {
     font-size: 20px;
     font-weight: 400;
+}
+
+.published {
+    font-style: italic;
+    display: block;
+    font-weight: bold;
 }

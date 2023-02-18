@@ -34,7 +34,7 @@ function createHtml(detail){
                                         <div class="details">
                                             <div><h1>${detail.title.rendered}</h1></div>
                                             <div><h2>${detail.content.rendered}</h2></div>
-                                            <time>Published: ${detail.date_gmt}</time>
+                                            <time class="published">Published: ${detail.date_gmt}</time>
                                         </div>
         
         
