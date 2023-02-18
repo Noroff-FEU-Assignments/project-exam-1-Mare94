@@ -26,7 +26,7 @@ body {
 }
 
 main{
-    margin-top: 500rem;
+    margin-top: 3rem;
 }
 
 /* CSS for the carousel */
@@ -64,7 +64,7 @@ main{
 
 .carousel__btn {
     position: absolute;
-    top: 90%;
+    top: 50%;
     transform: translateY(-50%);
     background: black;
     border: 0;
