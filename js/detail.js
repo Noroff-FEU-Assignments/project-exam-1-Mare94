@@ -18,7 +18,7 @@ async function getPostDetail(){
 
         console.log(detail);
 
-
+        createHtml(detail)
 
     }
     catch(error){
@@ -27,3 +27,17 @@ async function getPostDetail(){
 }
 
 getPostDetail();
+
+function createHtml(detail){
+    
+    detailContainer.innerHTML +=  `
+                                        <div class="details">
+                                            <h1>${detail.title.rendered}</h1>
+                                            <h2>${detail.content.rendered}</h2>
+                                            <h3>${detail.date_gmt}</h3>
+                                        </div>
+        
+        
+        
+                                      `;
+}
