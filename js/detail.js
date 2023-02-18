@@ -8,8 +8,7 @@ const url = "https://powerofflower.online/cms-ma1/flower-power/wordpress/wp-json
 
 const detailUrl = url + urlName;
 
-console.log(detailUrl);
-console.log(url);
+
 
 async function getPostDetail(){
     try{
@@ -18,6 +17,8 @@ async function getPostDetail(){
         const detail = await response.json();
 
         console.log(detail);
+
+
 
     }
     catch(error){
