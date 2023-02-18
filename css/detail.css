@@ -26,3 +26,17 @@ body {
 main{
     margin-top: 10rem;
 }
+
+.details {
+    background: whitesmoke;
+    margin: 4rem;
+    padding: 2rem;
+}
+
+.details h1 {
+    text-decoration: underline;
+}
+.details h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
