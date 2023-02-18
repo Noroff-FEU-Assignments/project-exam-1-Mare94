@@ -4,10 +4,12 @@ const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const urlName = params.get("id");
 
-const url = "https://powerofflower.online/cms-ma1/flower-power/wordpress/wp-json/wp/v2/posts";
+const url = "https://powerofflower.online/cms-ma1/flower-power/wordpress/wp-json/wp/v2/posts/";
 
 const detailUrl = url + urlName;
 
+console.log(detailUrl);
+console.log(url);
 
 async function getPostDetail(){
     try{
@@ -19,6 +21,8 @@ async function getPostDetail(){
 
     }
     catch(error){
-
+        console.log("An error has occured");
     }
 }
+
+getPostDetail();
