@@ -71,6 +71,10 @@ main{
     cursor: pointer;
 }
 
+.carousel__btn img {
+    width: 12px;
+}
+
 .carousel__btn--left {
     left: -30px;
 }
