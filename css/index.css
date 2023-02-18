@@ -66,21 +66,22 @@ main{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: black;
+    background: transparent;
     border: 0;
     cursor: pointer;
 }
 
 .carousel__btn img {
-    width: 12px;
+    width: 22px;
+    height: 25px;
 }
 
 .carousel__btn--left {
-    left: -30px;
+    left: -40px;
 }
 
 .carousel__btn--right {
-    right: -30px;
+    right: -40px;
 }
 
 .carousel__nav {
