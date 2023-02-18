@@ -29,7 +29,10 @@ main{
 
 .details {
     background: whitesmoke;
-    margin: 4rem;
+    margin-top: 5rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-bottom: 12rem;
     padding: 2rem;
     max-width: 1450px;
 }
