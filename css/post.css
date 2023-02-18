@@ -18,3 +18,10 @@
     color: black;
     cursor: pointer;
 }
+.blog-post h3 {
+    text-decoration: underline;
+}
+.blog-post h4 {
+    font-style: italic;
+    font-weight: 400;
+}
