@@ -2,9 +2,12 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+
+    background: gray;
+  max-width: 500px;
   position: relative;
   margin: auto;
+  height: 200px;
 }
 
 /* Hide the images by default */
@@ -41,6 +44,7 @@
 
 /* Caption text */
 .text {
+    background: gray;
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
