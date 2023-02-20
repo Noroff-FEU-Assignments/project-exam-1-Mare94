@@ -21,17 +21,17 @@ async function getPostData(){
 
             caroContainer.innerHTML += `
                                             <div class="caro-slide">
-                                            <a href="detail.html?id=${data[1].id}"> 
-                                                <h3>${data[1].title.rendered} :</h3>
-                                                <h4>${data[1].excerpt.rendered}</h4>
-                                                <h4>${data[1].date}</h4>
+                                            <a href="detail.html?id=${data[i].id}"> 
+                                                <h3>${data[i].title.rendered} :</h3>
+                                                <h4>${data[i].excerpt.rendered}</h4>
+                                                <h4>${data[i].date}</h4>
                                             </a>
                                             </div>
                                             
                                                                               
                                         `
 
-        }
+        };
 
     }
     catch(error){
