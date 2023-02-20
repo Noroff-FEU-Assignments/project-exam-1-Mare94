@@ -16,9 +16,6 @@ async function getPostData(){
         for(let i = 0; i < 10; i++){
 
 
-            console.log(data[i].title.rendered);
-            console.log(data[i].excerpt.rendered);
-            console.log(data[i].date);
 
             postContainer.innerHTML += `<div class="blog-post">
 

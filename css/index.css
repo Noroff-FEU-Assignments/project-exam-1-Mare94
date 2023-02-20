@@ -34,8 +34,22 @@ main{
 .carousel {
     position: relative;
     height: 400px;
-    width: 80%;
+    width: 50%;
     margin: 0 auto ;
+}
+
+.caro-slide {
+    height: 100%;
+    object-fit: contain;
+    padding: 1rem;
+}
+.caro-slide a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.caro-slide a h4 {
+    font-weight: 400;
 }
 
 .carousel__track-container {
@@ -56,6 +70,13 @@ main{
 }
 
 .carousel__slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.caro-html {
     position: absolute;
     top: 0;
     bottom: 0;
