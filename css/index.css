@@ -33,15 +33,19 @@ main{
 
 .carousel {
     position: relative;
-    height: 250px;
-    width: 50%;
+    height: 350px;
+    width: 30%;
     margin: 0 auto ;
 }
 
+/* Slider 1*/
 .caro-slide {
     height: 100%;
-    object-fit: contain;
-    padding: 1rem;
+    width: 80%;
+    object-fit: cover;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    margin-right:3rem;
 }
 .caro-slide a {
     text-decoration: none;
@@ -52,6 +56,61 @@ main{
     font-weight: 400;
 }
 
+/* Slider 2*/
+.caro-slide2 {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    padding: 0.5rem;;
+    margin-left:3rem;
+    margin-right: 2rem;
+}
+.caro-slide2 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.caro-slide2 a h4 {
+    font-weight: 400;
+}
+
+/* Slider 3*/
+.caro-slide3 {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    padding: 0.5rem;
+    margin-left:3rem;
+    margin-right: 1rem;
+}
+.caro-slide3 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.caro-slide3 a h4 {
+    font-weight: 400;
+}
+/* Slider 4*/
+
+.caro-slide4 {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    padding: 0.5rem;
+    margin-left:3rem;  
+}
+.caro-slide4 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.caro-slide4 a h4 {
+    font-weight: 400;
+}
+
+
+/* carousel container*/
 .carousel__track-container {
     background: whitesmoke;
     height: 100%;
