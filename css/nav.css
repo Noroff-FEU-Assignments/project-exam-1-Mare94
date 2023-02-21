@@ -21,6 +21,9 @@ header{
     color: white;
     cursor: pointer;
 }
+.logo h1 span {
+    color: aqua;
+}
 
 .nav-toggle {
     display: none;
@@ -192,6 +195,7 @@ footer {
 
     .logo h1 span {
         font-weight: 600;
+        color: aqua;
     }
 
     nav {
