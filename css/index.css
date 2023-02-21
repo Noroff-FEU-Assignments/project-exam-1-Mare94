@@ -152,6 +152,8 @@ main{
     background: transparent;
     border: 0;
     cursor: pointer;
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.5);
+
 }
 
 .carousel__btn img {
