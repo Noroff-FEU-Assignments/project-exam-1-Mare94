@@ -221,7 +221,7 @@ footer {
         content: '';
         display: block;
         height: 2px;
-        background: white;
+        background: aqua;
         position: absolute;
         top: -1em;
         left: 0;
@@ -233,5 +233,6 @@ footer {
     nav a:hover::before {
         transform: scale(1, 1);
     }
+
 
 }
