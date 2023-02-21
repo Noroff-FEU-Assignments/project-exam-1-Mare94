@@ -26,3 +26,37 @@
     font-style: italic;
     font-weight: 400;
 }
+
+
+/*<-------------------------------------------->*/
+
+@media screen and (max-width: 900px){
+    .post-container{
+        margin: 2rem;
+    }
+    
+    .blog-post{
+        margin: 5rem;
+        margin-left: 2rem;
+        padding: 1rem;
+        width: 100%;
+        background:whitesmoke;
+        border: gray;
+        border-radius: 2px;
+        text-decoration: none;
+        color: black;
+        box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.5);
+    }
+    .blog-post a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+    .blog-post h3 {
+        text-decoration: underline;
+    }
+    .blog-post h4 {
+        font-style: italic;
+        font-weight: 400;
+    }
+}
