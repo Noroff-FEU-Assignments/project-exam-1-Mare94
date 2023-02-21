@@ -36,6 +36,7 @@ main{
     height: 350px;
     width: 30%;
     margin: 0 auto ;
+    box-shadow: 0 15px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
 /* Slider 1*/
@@ -111,12 +112,14 @@ main{
 
 
 /* carousel container*/
+
 .carousel__track-container {
     background: whitesmoke;
     height: 100%;
     position: relative;
     overflow: hidden;
     margin-top: 10rem;
+    
 }
 
 .carousel__track {
@@ -168,6 +171,7 @@ main{
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    margin-top: 1.5rem;
 }
 
 .carousel__indicator {
