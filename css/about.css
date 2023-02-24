@@ -37,3 +37,26 @@ main{
 span {
     font-weight: 700;
 }
+
+/*media query*/
+@media screen and (max-width: 900px){
+
+    main{
+        margin-top: 8rem;
+        margin-left: 1rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .about-container{
+        background: whitesmoke;
+        width: 90%;
+        height: 100%px;
+        margin-left: 3rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        box-shadow: 0 15px 10px 4px rgba(0, 0, 0, 0.5);
+    }
+
+}
