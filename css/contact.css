@@ -68,6 +68,15 @@ label{
     margin-top: 2px;
 }
 
+.form-success{
+    display: none;
+    color: darkgreen;
+    background-color: lightgreen;
+    font-size: 0.9rem;
+    margin-top: 2px;
+    padding: 1rem;
+}
+
 @media  screen and (max-width: 785px ) and (min-width: 586px ) {
 
     textarea {

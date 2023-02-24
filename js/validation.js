@@ -10,6 +10,8 @@ const addressError = document.querySelector("#addressError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 
+const success = document.querySelector("#success");
+
 // function to run thru and check if len matches or display error msg
 
 function validateForm(event){
@@ -40,11 +42,12 @@ function validateForm(event){
     } else{
         emailError.style.display = "block";
     }
+    
 
     console.log("it works");
 }
 
-form.addEventListener("submit", validateForm);
+form.addEventListener("submit", validateForm, validateSuccess);
 
 // function to check the length of the passed in value
 
@@ -64,3 +67,18 @@ function validateEmail(email){
     const patternMatches = regEx.test(email);
     return patternMatches;
 }
+
+function validateSuccess(event){
+
+    event.preventDefault();
+
+    if(validateForm === false){
+        success.style.display = "none";
+        console.log("hey world i work");
+    } else {
+        success.style.display = "block";
+        
+    }
+
+}
+
