@@ -42,6 +42,12 @@ function validateForm(event){
     } else{
         emailError.style.display = "block";
     }
+
+    if(checkLength(firstName.value, 0) && checkLength(message.value, 25) && checkLength(subject.value, 15) && checkLength(address.value, 5) && validateEmail(email.value) === true){
+        success.style.display = "block";
+    } else{
+        success.style.display = "none";
+    }
     
 
     console.log("it works");
@@ -73,7 +79,7 @@ function validateSuccess(event){
     event.preventDefault();
 
     if(validateForm === false){
-        success.style.display = "none";
+        success.style.display = "block";
         console.log("hey world i work");
     } else {
         success.style.display = "block";
