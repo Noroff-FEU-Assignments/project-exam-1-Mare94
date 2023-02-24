@@ -238,5 +238,9 @@ footer {
         transform: scale(1, 1);
     }
 
+    .current-page a {
+        border-color: aqua;
+        text-decoration: underline;
+    }
 
 }
