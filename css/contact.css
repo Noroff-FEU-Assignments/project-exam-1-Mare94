@@ -67,3 +67,34 @@ label{
     font-size: 0.9rem;
     margin-top: 2px;
 }
+
+@media  screen and (max-width: 785px ) and (min-width: 586px ) {
+
+    textarea {
+        height: 10em;
+        width: 40em;
+    }
+    
+}
+
+@media  screen and (max-width: 585px ) and (min-width: 446px ) {
+
+    textarea {
+        height: 10em;
+        width: 30em;
+    }
+    
+}
+
+@media  screen and (max-width: 445px ) {
+
+    textarea {
+        height: 10em;
+        width: 20em;
+    }
+    
+}
+
+
+
+
