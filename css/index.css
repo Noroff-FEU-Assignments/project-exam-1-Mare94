@@ -81,7 +81,7 @@ main{
     width: 80%;
     object-fit: cover;
     padding: 0.5rem;
-    margin-left:3rem;
+    margin-left:2rem;
     margin-right: 1rem;
 }
 .caro-slide3 a {
@@ -192,14 +192,34 @@ main{
 
 .is-hidden {display: none;}
 
-/*<---------------------------------------------->*/
+/*<------------------Media query------------------------>*/
+@media only screen and (max-width: 2000px ) and (min-width: 1351px){
 
+    .carousel {
+        position: relative;
+        height: 400px;
+        width: 40%;
+        margin: 0 auto ;
+        box-shadow: 0 15px 10px 1px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media only screen and (max-width: 1350px ) and (min-width: 901px) {
+    
+    .carousel {
+        position: relative;
+        height: 400px;
+        width: 50%;
+        margin: 0 auto ;
+        box-shadow: 0 15px 10px 1px rgba(0, 0, 0, 0.5);
+    }
+}
 
 @media screen and (max-width: 900px) {
     
     .carousel {
         position: relative;
-        height: 500px;
+        height: 450px;
         width: 75%;
         margin: 0 auto ;
         box-shadow: 0 15px 10px 1px rgba(0, 0, 0, 0.5);
